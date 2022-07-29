@@ -1,0 +1,36 @@
+body{
+    font-family:'Roboto', sans-sarif;
+}
+
+.intro,.footer{
+    background-color:#1F2937;
+}
+
+.intro{
+    padding-left: 200px;
+    padding-right:100px;
+    padding-bottom:150px;
+    padding-top:20px;
+}
+
+.header-logo{
+    font-size:24px;
+    color:#F9FAF8;
+    font-weight:700;
+}
+
+.header-link{
+    font-size:18px;
+    color:#E5E7EB;
+    
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+}
+
+.right-links{
+    display:flex;
+    column-gap:20px;
+}
