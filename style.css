@@ -1,15 +1,16 @@
 body{
     font-family:'Roboto', sans-sarif;
+    margin:0;
 }
 
-.intro,.footer{
+.header,.hero,.footer{
     background-color:#1F2937;
 }
 
-.intro{
+.header,.hero{
     padding-left: 200px;
-    padding-right:100px;
-    padding-bottom:150px;
+    padding-right:200px;
+    padding-bottom:100px;
     padding-top:20px;
 }
 
@@ -19,7 +20,7 @@ body{
     font-weight:700;
 }
 
-.header-link{
+.header-link,.hero-text p{
     font-size:18px;
     color:#E5E7EB;
     
@@ -33,4 +34,42 @@ body{
 .right-links{
     display:flex;
     column-gap:20px;
+}
+
+.hero{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+}
+
+.hero img{
+    flex-shrink:0;
+    width:500px;
+    height:250px;
+}
+
+.hero h1{
+    font-size:48px;
+    font-weight:800;
+    color:#F9FAF8;
+    margin:0;
+}
+
+.hero-text button{
+    background-color:#3882F6;
+    color:#F9FAF8;
+    font-weight:700;
+    font-size:16px;
+    padding:8px 30px;
+    border-radius:10px;
+    border-style:none;
+}
+
+.footer{
+    padding:8px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#E5E7EB;
+    font-size:16px;
 }
