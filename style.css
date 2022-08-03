@@ -55,6 +55,11 @@ body {
     margin:0;
 }
 
+.hero-text p{
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
 .hero-text button{
     background-color:#3882F6;
     color:#F9FAF8;
@@ -96,6 +101,8 @@ body {
 
 .image p{
     margin-top:5px;
+    color:#1F2937;
+    font-weight:400;
 }
 
 .quote{
@@ -111,6 +118,8 @@ body {
 }
 
 .quote blockquote{
+    margin:0px;
+    margin-bottom:5px;
     font-size:36px;
     font-weight:300;
     font-style:italic;
@@ -165,7 +174,7 @@ body {
 }
 
 .footer{
-    padding:8px;
+    padding:20px;
     display:flex;
     justify-content:center;
     align-items:center;
