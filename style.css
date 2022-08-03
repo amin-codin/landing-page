@@ -125,6 +125,45 @@ body {
     padding-right:50px;
 }
 
+.sign-up{
+    padding:100px 200px;
+}
+
+.sign-up-box{
+    padding:40px 100px;
+    background-color:#3882F6;
+    display:flex;
+    justify-content:space-between;
+    border-radius:10px;
+}
+
+.sign-up-box h1{
+    color:#F9FAF8;
+    font-size:20px;
+    font-weight:700;
+    margin-bottom:5px;
+    margin-top:0px;
+}
+
+.sign-up-box button{
+    font-family:'Roboto', sans-sarif;
+    align-self:center;
+    padding:7px 40px;
+    border-color:#F9FAF8;
+    border-style:solid;
+    border-radius:7px;
+    color:#F9FAF8;
+    font-size:16px;
+    font-weight:700;
+    background-color:#3882F6;
+}
+
+.sign-up-box p{
+    margin:0;
+    color:#E5E7EB;
+    font-weight:400;
+}
+
 .footer{
     padding:8px;
     display:flex;
